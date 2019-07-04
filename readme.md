@@ -20,7 +20,7 @@ npm run build
 
 ## Example ( Requesting a webpage) 
 ```typescript
-import CheerioRequest from './request_type/cheerio_request';
+import CheerioRequest from 'request-group-cheerio';
 
 // create the request
 let cheerioRequest: CheerioRequest = new CheerioRequest('https://github.com/GabrieleNunez/request-group');
