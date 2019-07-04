@@ -1,0 +1,28 @@
+{
+  "name": "request-group-cheerio",
+  "version": "1.0.0",
+  "description": "Easily handle multiple cheerio request at the same time. Great for scraping",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriele M. Nunez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.12",
+    "@types/request": "^2.48.1",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-group": "^1.0.2"
+  }
+}
