@@ -30,5 +30,24 @@
     "moment": "^2.24.0",
     "request": "^2.88.0",
     "request-group": "^1.0.2"
-  }
+  },
+  "keywords": [ 
+    "typescript",
+    "cheerio",
+    "request-group",
+    "request",
+    "requests",
+    "batch",
+    "bulk",
+    "scraping",
+    "web scraping",
+    "webpage",
+    "page",
+    "web",
+    "internet",
+    "scraper",
+    "easy",
+    "eslint",
+    "prettier"
+  ]
 }
