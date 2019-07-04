@@ -4,7 +4,42 @@ This library provides a simple way to use Cheerio to pull information from a web
 
 - - -
 
-## Example
+## Installing
+```bash
+npm install request-group-cheerio
+```
+
+
+## Building
+```bash
+git clone https://github.com/GabrieleNunez/request-group-cheerio.git
+cd request-group-cheerio
+npm install
+npm run build
+```
+
+## Example ( Requesting a webpage) 
+```typescript
+import CheerioRequest from './request_type/cheerio_request';
+
+// create the request
+let cheerioRequest: CheerioRequest = new CheerioRequest('https://github.com/GabrieleNunez/request-group');
+
+// run the request and after its done parse the page
+cheerioRequest.run().then((): void => {
+    let $: CheerioStatic = cheerioRequest.getPage();
+    console.log('Parsing: ' + cheerioRequest.getUrl());
+    $('table.files td.message').each((index: number, element: CheerioElement): void => {
+        let txt: string = $(element).text();
+        console.log(txt.trim());
+    });
+    console.log('Request completed');
+});
+```
+
+
+
+## Example ( Scraping multiple web pages )
 
 ```typescript
 // index.ts
