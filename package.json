@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Easily handle multiple cheerio request at the same time. Great for scraping",
   "main": "dist/index.js",
-  "types" : "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "echo \"Building\" && tsc && echo \"Completed\""
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/GabrieleNunez/request-group-cheerio"
+    "type": "git",
+    "url": "https://github.com/GabrieleNunez/request-group-cheerio"
   },
   "author": "Gabriele M. Nunez",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "request": "^2.88.0",
     "request-group": "^1.0.2"
   },
-  "keywords": [ 
+  "keywords": [
     "typescript",
     "cheerio",
     "request-group",
