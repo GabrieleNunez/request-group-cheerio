@@ -1,6 +1,6 @@
 {
   "name": "request-group-cheerio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily handle multiple cheerio request at the same time. Great for scraping",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
