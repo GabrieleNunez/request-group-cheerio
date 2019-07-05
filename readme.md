@@ -1,4 +1,4 @@
-# Cheerio ( Request Group Plugin )
+# Cheerio Request ( additionally with Request-Group functionality )
 
 This library provides a simple way to use Cheerio to pull information from a web page. It simply sets up the request and creates the cheerio interface for you automatically. Additionally plugs right into the [RequestGroup](https://github.com/GabrieleNunez/request-group) library giving you the ability to scrape multiple web pages as fast as you want. 
 
