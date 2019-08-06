@@ -50,5 +50,9 @@
     "easy",
     "eslint",
     "prettier"
-  ]
+  ],  "files": [
+    "/dist",
+    "/LICENSE",
+    "/readme.md"
+    ]
 }
