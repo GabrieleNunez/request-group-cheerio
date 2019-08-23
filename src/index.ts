@@ -56,7 +56,7 @@ export class CheerioRequest extends BaseWebRequest<CheerioStatic> {
                     headers['Cookie'] = this.requestCookie;
                 }
 
-                console.log('Requesting: ' + this.requestUrl);
+                //    console.log('Requesting: ' + this.requestUrl);
 
                 request(
                     {
