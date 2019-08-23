@@ -21,6 +21,21 @@ export class CheerioRequest extends BaseWebRequest<CheerioStatic> {
     }
 
     /**
+     * Rather then run the request, it "builds" from the html passed in. Useful for reconstruction
+     * @param html The string that we want to feed into our page data object
+     */
+    public runFromHtml(html: string): Promise<Request<CheerioStatic>> {
+        return new Promise((resolve): void => {
+            this.pageData = cheerio.load(html);
+            this.momentPing = moment();
+            this.momentDone = moment();
+            this.requestCompleted = true;
+            this.momentDuration = moment.duration(this.momentInitiated.diff(this.momentDone));
+            resolve(this);
+        });
+    }
+
+    /**
      * Make a request out to the interweb world
      */
     public run(): Promise<Request<CheerioStatic>> {
