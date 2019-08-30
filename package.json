@@ -14,9 +14,7 @@
   "author": "Gabriele M. Nunez",
   "license": "MIT",
   "devDependencies": {
-    "@types/cheerio": "^0.22.13",
     "@types/node": "^12.7.3",
-    "@types/request": "^2.48.2",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
     "eslint": "^6.2.2",
@@ -30,7 +28,9 @@
     "cheerio": "^1.0.0-rc.3",
     "moment": "^2.24.0",
     "request": "^2.88.0",
-    "request-group": "^1.1.0"
+    "request-group": "^1.1.0",
+    "@types/request": "^2.48.2",
+    "@types/cheerio": "^0.22.13"
   },
   "keywords": [
     "typescript",
